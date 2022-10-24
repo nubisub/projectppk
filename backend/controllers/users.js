@@ -42,7 +42,7 @@ module.exports = {
 
 	// delete an existing user
 	destroy: (req, res) => {
-		User.findOneAndDelete(req.params.id, (err, user) => {
+		User.findOneAndDelete(username: req.params.id, (err, user) => {
 			res.json({success: true, message: "User deleted.", user})
 		})
 	},

@@ -10,8 +10,8 @@
 
 | username | password |
 |----------|----------|
-| admin    | admin    |
-| jody     | jody     |
+| admin    | 12345678    |
+| jody     | 12345678    |
 
 
 [//]: # (image from /docs)
